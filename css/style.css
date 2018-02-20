@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/****************** Style navigation ******************/
+nav .navbar, .navbar-inverse, .navbar-fixed-top{
+   margin: 0px;
+   /*background-color: #5E4485; */
+   background-color:#884A95;
+   
+   
+}
+.nav navbar-nav navbar-right li a{
+    color: white;
+}
+ul li a {
+    font-size: 1.5em;
+    font-family: 'Marck Script', cursive;
+   
+}
+ul li {
+    padding-right: 50px;
+}
+
+ul li a:hover {
+    background: white;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+.navbar-brand img {
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    padding-top: 0px;
+}
+.navbar_brand {
+    margin-left: 30px;
+}
+.navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:focus, .navbar-inverse:active{
+    background-color: #7058A7 !important;
+}
+/**************** End *******************************/
+
+/******************* Header Content *****************/
+header {
+    margin: 0;
+    padding: 0;
+    margin-top: 51px;
+    
+}
+header .header-img {
+ margin: 0;
+ padding: 0;
+}
+header .header-img img {
+    margin: 0;
+    padding: 0;
+    min-width: 105%;
+    max-height: 100%;
+    border-bottom: 2px solid #85af4b;
+}
+
+/******************* ABOUT ME SECTION *****************/
+
+.about-me {
+    margin-top: 50px;
+}
+
+.about-me h1 {
+    margin-bottom: 0px;
+    position: relative;
+    padding-bottom: 15px;
+    margin-top: 0;
+}
+.about-me h1:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0;
+    background-color: #85af4b;
+    margin-bottom: 10px;
+}
+
+/******************* SKILLS SECTION *****************/
+.my-skills {
+    margin-top: 50px;
+}
+.my-skills h1 {
+    margin-bottom: 0px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-top: 0;
+}
+.my-skills h1:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    margin-left: -56px;
+    left: 50%;
+    bottom: 0;
+    background-color: #85af4b;
+    margin-bottom: 10px;
+}
+
+
+.box img {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+   
+
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+             
+    background-color:#85af4b;
+    height: 1px;
+    margin: 0;
+    margin-top: 5px;
+  }
+/******************* PROJECT SECTION *****************/
+
+

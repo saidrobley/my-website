@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+header {
+    background-color: black;
+    height: 66px;
+}
+
+.logo {
+    display: inline;
+    float: left;
+}
+.menu {
+    display: inline;
+    margin: 17px;
+    float: right;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    font-size: 1.3em;
+}
+a {
+    color: white;
+    padding: 20px;
+    
+}
+
+/* --------- hamburger menu ----------- */
+
+.hamburger {
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    .hamburger {
+        display: block;
+    }
+    header {
+        height: 66px;
+    }
+    nav .logo{
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 10px;
+
+    }
+    .menu{
+        display: none;
+    }
+    .hamburger .line {
+        width: 50px;
+        height: 5px;
+        display: block;
+        background-color: white;
+        margin: 8px auto;
+    }
+    .hamburger:ahover {
+        cursor: pointer;
+    }
+}
